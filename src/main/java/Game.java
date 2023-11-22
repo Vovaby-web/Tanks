@@ -2,8 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Game extends JFrame {
-  private static int step = 90;
-  private static int column = 21;
+  private static int step = 80;
+  private static int column = 19;
   private static int row = 11;
   private static int width = column * step + 20;
   private static int height = row * step;
