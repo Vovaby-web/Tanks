@@ -33,6 +33,7 @@ public class PGame extends JPanel {
   public void init() {
     number.clear();
     tank.clear();
+    tank.clear();
     tower.clear();
     generation_Maze();
     timer_s = 0;
@@ -41,6 +42,7 @@ public class PGame extends JPanel {
 
   private void generation_Maze() {
     maze.init();
+    maze.bild();
     maze.bild();
     repaint();
   }
